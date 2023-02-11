@@ -3,4 +3,4 @@ COPY requirements.txt /requirements.txt
 COPY templates /templates
 COPY app.py /app.py
 RUN pip3 install -r requirements.txt
-CMD ['python', 'app.py']
+CMD ["python", "app.py"]
