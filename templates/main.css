@@ -1,5 +1,6 @@
 :root {
-    --green: #00FF00;
+    --blue: #003475;
+    --lightblue: #0A72C4;
     --white: #FFFFFF;
     --black: #000000;
 }
@@ -15,10 +16,10 @@ ul {
 }
 
 .light-theme {
-  --bg: var(--green);
-  --fontColor: var(--black);
+  --bg: var(--white);
+  --fontColor: var(--blue);
 }
 .dark-theme {
-  --bg: var(--black);
-  --fontColor: var(--green);
+  --bg: var(--blue);
+  --fontColor: var(--lightblue);
 }
